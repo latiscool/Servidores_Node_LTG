@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario HTML</title>
+</head>
+
+<body>
+
+  <!-- Primer Formulario -->
+  <form action="http://localhost:8080/crear">
+    Nombre del archivo:
+    <input name="nombre" placeholder="nombreArchivo.txt" />
+    <br />
+    Contenido:
+    <textarea name="contenido"></textarea>
+    <br />
+    <button>Crear</button>
+  </form>
+  <hr />
+  <!-- Segundo Formulario -->
+  <form action="http://localhost:8080/leer">
+    Nombre del archivo:
+    <input name="leer_nombre" />
+    <br />
+    <button>Leer</button>
+  </form>
+
+  <!-- Tercer Formulario -->
+  <form action="http://localhost:8080/renombrar">
+    Nombre ANTIGUO del archivo:
+    <input name=" " />
+    <br />
+    NUEVO nombre del archivo:
+    <input name="new_nombre" />
+    <br />
+    <button>Renombrar</button>
+  </form>
+  <!-- Cuarto Formulario -->
+  <form action="http://localhost:8080/eliminar">
+    Nombre del archivo:
+    <input name="eliminar_nombre" />
+    <br />
+    <button>Eliminar</button>
+  </form>
+
+
+</body>
+
+</html>
